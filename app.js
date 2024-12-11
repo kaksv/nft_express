@@ -11,7 +11,7 @@ app.get('/',(req,res)=>{
 })
 
 app.get('/create-story',(req,res)=>{
-    res.send("working")
+    res.send("working and exposing story creation end points")
 })
 
 app.post('/ussd', (req, res) => {
