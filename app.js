@@ -10,6 +10,10 @@ app.get('/',(req,res)=>{
     res.send("working")
 })
 
+app.get('/create-story',(req,res)=>{
+    res.send("working")
+})
+
 app.post('/ussd', (req, res) => {
     // Read the variables sent via POST from our API
     const {
